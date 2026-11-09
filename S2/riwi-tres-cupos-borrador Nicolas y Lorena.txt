@@ -1,0 +1,159 @@
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+ELECCIÓN INDIVIDUAL
+Ana, Camila, Elena
+Criterio: 1.El programa de acompañamiento es un asesoría para mejoramiento de nota, ya que se aprueba sobre 3,0. 
+2. Asistencia a las clases. Se tienen en cuenta las personas con una asistencia sobre un 90%
+3. Personas que necesitan apoyo en temas puntuales para mejorar su nota. 
+Ana: Ella solo debe reforzar conceptos básicos y el acompañamiento le ayudaría a llegar a la nota de 3,0
+Camila: Ella necesita acompañamiento para ganar confianza en su propio aprendizaje.
+Elena: Ella necesita reforzar su lógica de programación.
+
+PRIMERA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+PRIMERA RESPUESTA
+Deepseek: 
+
+Prioridad	Estudiante	Motivo central
+1	Diego	Nota más baja + ausencia por causa familiar + riesgo de deserción
+2	Ana	Brecha conceptual pese a esfuerzo y buena asistencia
+3	Gabriela	Barrera de acceso a práctica (computador compartido)
+Suplentes: Camila (dependencia al trabajar sola) y Hugo (dificultad para explicar el código). No prioritarios: Bruno (conflicto de horario laboral), Elena (dificultad de práctica con buena base) y Felipe (busca profundización, no apoyo).
+
+Gemini:
+Camila (Nota: 2,8 | Asistencia: 100 %)
+
+Justificación: Tiene asistencia perfecta y está a solo dos décimas de aprobar. Su dificultad radica en la falta de autonomía y el bloqueo individual al programar solo. Un tutor puede guiarla en estrategias de resolución independiente de problemas, logrando un impacto inmediato en su rendimiento.
+
+Elena (Nota: 2,7 | Asistencia: 100 %)
+
+Justificación: Cuenta con asistencia perfecta y comprende la teoría, pero comete errores prácticos al escribir código. Es el caso ideal para un acompañamiento tipo pair programming (programación en pareja), donde la corrección de sintaxis y lógica en tiempo real le permitirá superar el umbral de aprobación.
+
+Ana (Nota: 2,1 | Asistencia: 95 %)
+
+Justificación: Registra una excelente asistencia y demuestra iniciativa propia estudiando por su cuenta. Su barrera principal es la falta de comprensión de conceptos básicos. El acompañamiento personalizado le permitirá reestructurar sus bases pedagógicas antes de que se atrase más.
+Copilot: 
+1. Diego
+
+Razón: Tiene la nota más baja (1,9) y una asistencia del 60 %. Además, ha faltado por una situación familiar y expresa que quiere continuar, pero se siente muy atrasado. El acompañamiento podría ayudarle a recuperar contenidos y evitar que abandone el curso.
+
+2. Ana
+
+Razón: Aunque tiene una asistencia muy alta (95 %), su nota es de 2,1. Esto indica que el problema no es la falta de compromiso, sino dificultades para comprender conceptos básicos. Como se esfuerza estudiando por su cuenta, un apoyo especializado podría tener un impacto importante en su aprendizaje.
+
+3. Gabriela
+
+Razón: Tiene una nota de 2,6 y una limitación importante fuera del aula: comparte ordenador en casa y casi no puede practicar. En programación, la práctica constante es fundamental, por lo que el acompañamiento podría compensar esa desventaja y ayudarle a mejorar su rendimiento.
+
+
+OBSERVACIONES
+Primera pregunta:
+Copilot y Deepsek seleccionaron a las mismas personas.
+Deepseek estableció los siguientes criterios:
+Están por debajo o cerca del umbral de aprobación (3,0) y en riesgo real de perder el curso.
+
+Su dificultad responde a una necesidad de acompañamiento (no solo falta de esfuerzo), es decir, que el apoyo externo pueda marcar diferencia.
+
+Factores de contexto (asistencia, acceso a recursos, carga laboral/familiar) que limitan su capacidad de resolver solos la situación.
+Por otro lado, Copilot indicó que sus criterios fueron:
+Interpreté que necesitaban acompañamiento los estudiantes con mayor riesgo de no aprobar el curso y cuyas dificultades no se debían únicamente al esfuerzo personal, sino también a problemas de comprensión, circunstancias personales o limitaciones de recursos. Por eso consideré tanto las notas bajas como las situaciones descritas para cada estudiante.
+Finalmente, Gemini establecio los siguientes criterios:
+Compromiso comprobado: Alta asistencia y esfuerzo continuo, garantizando el aprovechamiento del cupo.
+
+Acción directa de la tutoría: Que el obstáculo principal sea académico (conceptos, sintaxis o confianza) y pueda resolverse mediante acompañamiento pedagógico.
+
+Viabilidad de aprobación: Estudiantes en riesgo de reprobar (< 3,0) que están en posición de alcanzar la nota mínima con el impulso adecuado.
+
+Segunda pregunta:
+Las IA se centraron principalmente en la nota, la asistencia y la causa de la dificultad. 
+
+Tercera pregunta:  A simple vista, tomo en cuenta los contextos de cada uno, sin agregar otro tipo de interpretaciones. Por lo tanto, no dio por cierto algo que no estaba en la tabla
+
+Cuarta pregunta: Ninguna IA pidió información adicional para poder darnos una respuesta 
+
+SEGUNDA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+Información adicional sobre el programa:
+PROGRAMA A: Preparación para el examen
+Dos sesiones de dos horas antes del examen de la próxima semana. El propósito es apoyar a estudiantes para que alcancen la nota mínima de aprobación: 3. Los ocho estudiantes pueden asistir a las dos sesiones. Hay computadores disponibles durante las sesiones. No hay préstamo de equipos ni acompañamiento después del examen.
+
+SEGUNDA RESPUESTA
+Copilot: Los tres cupos deberían asignarse a Camila, Elena y Hugo, porque combinan tres factores importantes: están relativamente cerca de aprobar, muestran compromiso con el curso y sus dificultades parecen abordables mediante dos sesiones de preparación intensiva antes del examen.
+Gemini
+La selección se basa en el principio de eficiencia e impacto inmediato: en un programa de solo cuatro horas diseñado exclusivamente para alcanzar la nota mínima de aprobación, el mayor beneficio se logra al asignarlo a estudiantes con alta asistencia y compromiso (Elena, Camila y Ana) cuyas dificultades puntuales pueden resolverse en ese corto tiempo.
+
+Dejar fuera a los demás no responde a una falta de mérito, sino a que sus necesidades académicas y personales —como la falta de equipo en casa, la incompatibilidad de horarios laborales o la necesidad de un acompañamiento a largo plazo— requieren estrategias de apoyo estructurales que superan el alcance y formato de este programa.
+
+Deepseek:
+Se priorizó riesgo real de reprobar + barrera académica superable en el corto plazo + capacidad de aprovechar dos sesiones presenciales con computador. Diego (riesgo máximo), Ana (base conceptual débil con buen hábito) y Camila (bloqueo autónomo con asistencia perfecta) son quienes más pueden convertir esas cuatro horas en un aprobado. Los excluidos tienen barreras estructurales (Bruno, Gabriela), necesidades de enriquecimiento (Felipe) o menor urgencia relativa (Elena, Hugo).
+
+
+COMPARACIÓN
+DeepSeek: Sí, cambió un cupo: entra Camila y sale Gabriela.
+Selección anterior: Diego, Ana, Gabriela.
+Selección nueva (Programa A): Diego, Ana, Camila.
+el criterio que cambió fue "¿la intervención ofrecida puede resolver la barrera en el corto plazo?". 
+Copilot: En la primera respuesta, el criterio utilizado fue quiénes tenían mayores necesidades académicas o personales de apoyo. Por eso se eligieron Diego, Ana y Gabriela, ya que presentaban las dificultades más graves o mayores barreras para aprender.
+
+Cuando se aclara que el objetivo es maximizar las probabilidades de aprobar en el corto plazo, el criterio cambia. Ya no se busca ayudar a quienes más dificultades tienen, sino a quienes pueden obtener el mayor beneficio inmediato de dos sesiones.
+
+Por ello, la selección pasa a ser:
+
+Camila, porque está muy cerca de aprobar (2,8) y necesita ganar autonomía.
+Elena, porque comprende los conceptos y solo necesita corregir errores de programación.
+Hugo, porque tiene buena asistencia y requiere reforzar su comprensión del código.
+
+Gemini: La selección de los tres estudiantes no cambió (se mantienen Elena, Camila y Ana). Sin embargo, la justificación sí se transformó profundamente y se volvió mucho más sólida.
+
+CONCLUSIÓN
+Dar un contexto más detallado sobre el propósito del programa de acompañamiento; para poder modificar los criterios de acuerdo a lo que se esperaba del programa. 
